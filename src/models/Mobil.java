@@ -16,10 +16,6 @@ public class Mobil extends Kendaraan{
     public int getJumlahPintu() {
         return this.JumlahPintu;
     }
-    @Override
-    public double getHargaTotal() {
-        return super.getHargaTotal();
-    }
 
     public void setJumlahPintu(int jumlahPintu) {
         this.JumlahPintu = jumlahPintu;

@@ -13,9 +13,5 @@ public class Motor extends Kendaraan{
     public int getJumlahPenumpang() {
         return JUMLAHPENUMPANG;
     }
-    @Override
-    public double getHargaTotal() {
-            return super.getHargaTotal();
-        }
 }
 
